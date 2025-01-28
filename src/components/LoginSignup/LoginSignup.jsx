@@ -96,7 +96,7 @@ function LoginSignup() {
         
         <form
           onSubmit={handleSubmit}
-          className="form_container p-2 p-lg-4 rounded shadow m-auto h-100"
+          className="form_container p-2 p-lg-4 rounded shadow  h-100"
         >
           <h1 className="text-center text-light fw-bold" style={{WebkitTextStroke:'1px brown'}}>
           Registration Form
