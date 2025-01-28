@@ -92,11 +92,11 @@ function LoginSignup() {
 
   return (
     <div className="m-auto w-100">
-      <div className="p-3 mt-4 d-flex  align-items-center justify-content-center">
+      <div className="p-md-3 mt-4 d-flex  align-items-center justify-content-center">
         
         <form
           onSubmit={handleSubmit}
-          className="form_container p-4 rounded shadow m-auto h-100 w-75"
+          className="form_container p-2 p-lg-4 rounded shadow m-auto h-100 w-75"
         >
           <h1 className="text-center text-light fw-bold" style={{WebkitTextStroke:'1px brown'}}>
           Registration Form
@@ -107,7 +107,7 @@ function LoginSignup() {
             <div className="rows d-md-flex justify-content-between my-md-3 w-100">
               <div className="col-md-6 my-sm-3 my-md-0">
                 <div className="inputs  d-flex rounded my-2 mx-1">
-                  <span className="text-dark my-auto mx-1">First Name:</span>
+                  <span className="text-dark my-auto mx-1">FirstName:</span>
                   <input
                     type="text"
                     name="firstName"
@@ -122,7 +122,7 @@ function LoginSignup() {
               </div>
               <div className="col-md-6 my-sm-3 my-md-0">
                 <div className="inputs  d-flex rounded my-2 mx-1">
-                  <span className="text-dark my-auto mx-1">Last Name:</span>
+                  <span className="text-dark my-auto mx-1">LastName:</span>
                   <input
                     type="text"
                     name="lastName"
@@ -179,7 +179,7 @@ function LoginSignup() {
             <div className="rows d-md-flex justify-content-between my-md-3">
               <div className="col-md-6 my-sm-3 my-md-0">
                 <div className="inputs  d-flex rounded my-2 mx-1">
-                  <span className="text-dark my-auto mx-1">Phone No:</span>
+                  <span className="text-dark my-auto mx-1">PhoneNo:</span>
                   <input
                     className="custom-input"
                     type="number"
@@ -222,7 +222,7 @@ function LoginSignup() {
                     name="password"
                     value={formData.password}
                     onChange={handleChange}
-                    placeholder="********"
+                    placeholder="******"
                   />
                 </div>
                 {errors.password && (
@@ -238,7 +238,7 @@ function LoginSignup() {
                     name="confirmPassword"
                     value={formData.confirmPassword}
                     onChange={handleChange}
-                    placeholder="********"
+                    placeholder="******"
                   />
                 </div>
                 {errors.confirmPassword && (
