@@ -91,12 +91,12 @@ function LoginSignup() {
   };
 
   return (
-    <>
-      <div className="container p-3 mt-4 d-flex flex-column align-items-center">
+    <div className="w-100 m-0">
+      <div className="p-3 mt-4 d-flex flex-column align-items-center w-100 ">
         
         <form
           onSubmit={handleSubmit}
-          className="form_container p-4 rounded shadow m-auto h-100"
+          className="form_container p-4 rounded shadow m-auto h-100 w-100"
         >
           <h1 className="text-center text-light fw-bold" style={{WebkitTextStroke:'1px brown'}}>
           Registration Form
@@ -104,7 +104,7 @@ function LoginSignup() {
           <div>
             
             {/* Input Row 1 */}
-            <div className="rows d-md-flex justify-content-between my-md-3">
+            <div className="rows d-md-flex justify-content-between my-md-3 w-100">
               <div className="col-md-6 my-sm-3 my-md-0">
                 <div className="inputs  d-flex rounded my-2 mx-1">
                   <span className="text-dark my-auto mx-1">First Name:</span>
@@ -256,7 +256,7 @@ function LoginSignup() {
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 }
 
