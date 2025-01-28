@@ -91,7 +91,7 @@ function LoginSignup() {
   };
 
   return (
-    <div className="m-auto w-100">
+    <div className="">
       <div className="p-md-3 mt-4 d-flex  align-items-center justify-content-center">
         
         <form
