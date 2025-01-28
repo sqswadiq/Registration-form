@@ -5,8 +5,7 @@ body{
 }
 .form_container{
     background: linear-gradient(rgb(145, 185, 199),rgb(94, 147, 165),rgb(122, 57, 105));
-    /* height: 500px; */
-    /* width: 700px; */
+
 }
 .inputs input{
     background: transparent;
