@@ -92,7 +92,7 @@ function LoginSignup() {
 
   return (
     <div className="w-100 px-2">
-      <div className="p-md-3 d-flex  align-items-center justify-content-center w-100">
+      <div className="container-fluid p-md-3 d-flex  align-items-center justify-content-center w-100">
         
         <form
           onSubmit={handleSubmit}
