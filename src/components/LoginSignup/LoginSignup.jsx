@@ -91,12 +91,12 @@ function LoginSignup() {
   };
 
   return (
-    <div className="w-100 px-2">
-      <div className="container-fluid p-md-3 d-flex  align-items-center justify-content-center w-100">
+    <div className="w-100">
+      <div className="p-md-3 d-flex  align-items-center justify-content-center w-100">
         
         <form
           onSubmit={handleSubmit}
-          className="form_container p-2 p-lg-4 rounded shadow  h-100 w-md-0 w-sm-100"
+          className="form_container p-2 p-lg-4 rounded shadow m-3 h-100 w-md-0 w-sm-100"
         >
           <h1 className="text-center text-light fw-bold" style={{WebkitTextStroke:'1px brown'}}>
           Registration Form
