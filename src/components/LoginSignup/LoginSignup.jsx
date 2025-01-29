@@ -91,7 +91,7 @@ function LoginSignup() {
   };
 
   return (
-    <div className="">
+    <div className="container-fluid">
       <div className="p-md-3 m-4 d-flex  align-items-center justify-content-center">
         
         <form
