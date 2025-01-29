@@ -42,7 +42,7 @@ body{
 .btn{
     background: linear-gradient(to right, rgb(204, 182, 182) , rgb(70, 148, 67));
     border: none;
-    color: blac;
+    color: black;
 
 }
 .btn:hover{
