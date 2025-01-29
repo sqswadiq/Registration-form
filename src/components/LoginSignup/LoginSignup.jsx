@@ -91,8 +91,8 @@ function LoginSignup() {
   };
 
   return (
-    <div className="w-100">
-      <div className="p-md-3 d-flex  align-items-center justify-content-center w-100">
+    <div className="">
+      <div className="p-md-3 px-4 d-flex  align-items-center justify-content-center">
         
         <form
           onSubmit={handleSubmit}
