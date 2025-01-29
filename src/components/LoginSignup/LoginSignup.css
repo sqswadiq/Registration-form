@@ -2,6 +2,8 @@ body{
     background-image: url('https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?t=st=1737871973~exp=1737875573~hmac=d72e77b46ea7be35aa34a7e2ff6f8d63f65204e8e9cff1ba4fbd326c2893fc7b&w=740');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
 }
 .form_container{
     background: linear-gradient(rgb(145, 185, 199),rgb(94, 147, 165),rgb(122, 57, 105));
