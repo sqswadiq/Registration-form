@@ -4,7 +4,7 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .form_container{
     background: linear-gradient(rgb(145, 185, 199),rgb(94, 147, 165),rgb(122, 57, 105));
